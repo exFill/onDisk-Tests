@@ -2,7 +2,7 @@
 
 OSQI=/usr/bin/osqueryi
 
-gcc chkThis.cpp -o chkThis
+gcc chkThis.c -o chkThis
 gcc doThis.c -o doThis
 
 ./doThis &
