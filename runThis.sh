@@ -1,5 +1,16 @@
 #!/bin/bash
 
+if [[ ! -x "$OSQI" ]]
+then
+  echo OSQI not defined/expoerted
+  echo 'run: export OSQI=`find /vagrant/ -name osqueryi`'
+  echo
+  exit
+fi
+
+echo
+echo Checking $OSQI
+
 gcc chkThis.c -o chkThis
 gcc doThis.c -o doThis
 
