@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
     printf("full_path=%s\n", full_path);
     printf("errno=%s (%d)\n", strerror(thisErrno), thisErrno);
 
-    free(link_path);
+//    free(link_path);
 
   } else {
     printf("usage: %s pid\n", argv[0]);
