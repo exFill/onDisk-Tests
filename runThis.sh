@@ -1,7 +1,5 @@
 #!/bin/bash
 
-OSQI=/usr/bin/osqueryi
-
 gcc chkThis.c -o chkThis
 gcc doThis.c -o doThis
 
